@@ -1,6 +1,6 @@
 FROM alpine:latest
 
 RUN apk update && \
-    apk add vsftpd
+    apk add vsftpd lftp
     
 COPY /cnf.conf /cnf.conf
